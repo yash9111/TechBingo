@@ -26,13 +26,17 @@ const logos = [
     'images/js.png',
     'images/mysql.png',
     'images/python.png',
-    'images/js.png',
     'images/mysql.png',
     'images/python.png',
     'images/js.png',
     'images/mysql.png',
     'images/python.png',
     'images/js.png',
+    'images/mysql.png',
+    'images/python.png',
+    'images/js.png',
+    'images/mysql.png',
+    'images/python.png',
     'images/mysql.png',
     'images/python.png',
     'images/js.png',
@@ -78,6 +82,21 @@ function generateBingoCard() {
     return card;
 }
 
+// Add a confirmation dialog when the page is reloaded
+window.addEventListener('beforeunload', function (e) {
+    e.preventDefault();
+    e.returnValue = '';
+});
+
+// Function to reset the game when the user confirms reload
+function resetGame() {
+    const confirmed = confirm("Are you sure you want to reset the game?");
+    if (confirmed) {
+        // Reload the page to reset the game
+        location.reload();
+    }
+}
+
 // Generate two Bingo cards with different logo combinations
 const card1 = generateBingoCard();
 // const card2 = generateBingoCard();
@@ -87,3 +106,4 @@ const cardContainer1 = document.getElementById('card1');
 // const cardContainer2 = document.getElementById('card2');
 cardContainer1.appendChild(card1);
 // cardContainer2.appendChild(card2);
+
