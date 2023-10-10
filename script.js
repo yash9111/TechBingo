@@ -8,7 +8,7 @@ const logos = [
     , "images/0003.jpg"
     , "images/0004.jpg"
     , "images/0005.jpg"
-    , "images/0006.jpg"
+    // , "images/0006.jpg"
     , "images/0007.png"
     , "images/0008.png"
     , "images/0009.png"
