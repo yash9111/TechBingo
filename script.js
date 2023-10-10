@@ -75,7 +75,7 @@ function shuffleArray(array) {
 
 function generateBingoCard() {
     const card = document.createElement('div');
-    card.className = 'bingo-card';
+    // card.className = 'bingo-card';
 
     const shuffledLogos = [...logos]; 
     shuffleArray(shuffledLogos); 
@@ -100,7 +100,7 @@ function generateBingoCard() {
 function generateCard()
 {
     const card = document.createElement('div');
-    card.className = 'card';
+    // card.className = 'card';
     const bingoLogo = [
         'B.png',
         'I.png',
