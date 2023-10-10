@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img scr="images/lArrow.png">
+    <img src="images/lArrow.png"> <!-- Corrected from "scr" to "src" -->
     <title>Bingo Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,15 +11,17 @@
     <header>
         <h1>Bingo Game</h1>
     </header>
-    <div class="bingo-container">
+    <div class="bingo-container">   
+        
+        <div class ="card" id="card9">
+            
+        </div>
         <div class="bingo-card" id="card1">
             <!-- Logos will be generated here -->
         </div>
-        <!-- Add more cards as needed -->
+            
     </div>
-    <footer>
-        <p>&copy; 2023 GDSC Bingo Game</p>
-    </footer>
+   
     <script src="script.js"></script>
 </body>
 </html>
