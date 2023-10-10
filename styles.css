@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0; /* Set a background color for the entire page */
-    margin: 0; /* Remove default body margin */
+    background-color: #f0f0f0; 
+    margin: 0; 
 }
 
 header {
-    background-color: #333; /* Header background color */
-    color: #fff; /* Header text color */
-    padding: 20px 0; /* Header padding */
+    background-color: #333;
+    color: #fff; 
+    padding: 20px 0;
 }
 
 h1 {
@@ -28,8 +28,8 @@ h1 {
     width: 300px;
     height: 300px;
     margin: 10px;
-    background-color: #fff; /* Card background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Card shadow */
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -40,16 +40,15 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-/* Add a class for the clicked logo */
 .logo-clicked {
-    background-color: transparent; /* Set the background color to transparent */
-    border: 3px solid yellow; /* Add a yellow border to the clicked logo */
-    box-sizing: border-box; /* Include the border in the element's dimensions */
+    background-color: transparent;
+    border: 3px solid yellow; 
+    box-sizing: border-box; 
 }
 
 
 footer {
-    background-color: #333; /* Footer background color */
-    color: #fff; /* Footer text color */
-    padding: 10px 0; /* Footer padding */
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 0; 
 }
