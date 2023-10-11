@@ -104,7 +104,7 @@ function generateCard()
     const bingoLogo = [
         'B.png',
         'I.png',
-        'images.png',
+        'N.png',
         'G.png',
         'O.png',
     ];
