@@ -73,12 +73,16 @@ h1 {
     margin: 5px;
     display: inline-block;
     transition: background-color 0.3s ease;
+    /* background-image: url(images/cross.png); */
 }
 
 .logo-clicked {
     background-color: transparent;
-    border: 3px solid yellow; 
-    box-sizing: border-box; 
-}
+    /* background-image:  url('images/0002.png'); */
+    
+    border: 5px solid ; 
+     box-sizing:border-box;
+    
+    }
 
 
