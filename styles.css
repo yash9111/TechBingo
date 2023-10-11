@@ -78,11 +78,13 @@ h1 {
 
 .logo-clicked {
     background-color: transparent;
-    /* background-image:  url('images/0002.png'); */
-    
+    background-image:  url('images/x.png');
+
     border: 5px solid ; 
-     box-sizing:border-box;
+    box-sizing:border-box;
+  
     
     }
+    
 
 
