@@ -1,9 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-image: url("images/mine.png");
+
     background-color: #fff; 
     margin: 0; 
 }
+.background-container{
+    background-image: url("./images/mine.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
 
 header {
     background-color: #fff;
@@ -32,6 +44,9 @@ h1 {
     margin: 15px;
     background-color: #fff;
     /* padding: 15px; */
+    opacity: .8;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 2px rgb(12, 12, 12);
 
 
 }
@@ -44,6 +59,12 @@ h1 {
     margin: 10px;
     background-color: #ffffff; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    opacity: .8;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 2px rgb(12, 12, 12);
+
+
 }
 
 .logo {
